@@ -1,4 +1,6 @@
-public class Main {
+package searchMethod;
+
+public class SearchMain {
     public static void main(String[] args) {
         int key = 11; // need searched
         int[] data = {1,2,4,7,9,10,11,14}; // data
@@ -17,7 +19,7 @@ public class Main {
     }
 
     /**
-     * Binary search method
+     * Binary searchMethod method
      * @param low
      * @param high
      * @return
@@ -27,7 +29,7 @@ public class Main {
     }
 
     /**
-     * Inter search method
+     * Inter searchMethod method
      * @param low
      * @param high
      * @param key
@@ -39,7 +41,7 @@ public class Main {
     }
 
     /**
-     * gold search method
+     * gold searchMethod method
      * @param low
      * @param high
      * @return

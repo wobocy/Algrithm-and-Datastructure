@@ -1,8 +1,10 @@
+package searchMethod;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
- * A class used to search string, the method is kmp.
+ * A class used to searchMethod string, the method is kmp.
  */
 
 public class StringMatcher {
@@ -24,7 +26,7 @@ public class StringMatcher {
     }
 
     /**
-     * match search
+     * match searchMethod
      */
     public void match(char[] key) {
         ArrayList<Integer> patialList = getAllPartialValues(key);
@@ -42,7 +44,7 @@ public class StringMatcher {
             startPos += count - step;
         }
         if(count == keyLength) {
-            System.out.println("search success. the position starts form:" + (startPos - (count - step)));
+            System.out.println("searchMethod success. the position starts form:" + (startPos - (count - step)));
         }else {
             System.out.println("no math.");
         }
